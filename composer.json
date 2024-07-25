@@ -1,0 +1,20 @@
+{
+    "name": "wdmarket/test-task",
+    "description": "Recrutation task for WD Market.",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "WDMarket\\TestTask\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrzej Piotrowski",
+            "email": "apiotrowski@wdmarket.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "10up/wp_mock": "^1.0"
+    }
+}
